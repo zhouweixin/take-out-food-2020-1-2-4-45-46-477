@@ -141,15 +141,15 @@ function allselect(cb) {
 		items.forEach((item)=>{
 			var cb = document.getElementById(`cb-${item.id}`);
 			cb.checked = true;
+			document.getElementById(`count-${item.id}`).value = 1;
 			selectFood(cb, item.id);
 		});
 	} else {
 		items.forEach((item)=>{
 			var cb = document.getElementById(`cb-${item.id}`);
 			cb.checked = false;
-			selectFood(cb, item.id);
-
 			document.getElementById(`count-${item.id}`).value = 0;
+			selectFood(cb, item.id);
 		});
 	}
 }
