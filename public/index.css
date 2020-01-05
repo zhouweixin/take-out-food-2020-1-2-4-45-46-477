@@ -9,3 +9,23 @@
 	line-height: 30px;
 	border: 1px solid red;
 }
+
+table,table tr th, table tr td { border:1px solid black; }
+
+#items-tab {
+	width: 600px; 
+	min-height: 25px; 
+	line-height: 25px; 
+	text-align: center; 
+	border-collapse: collapse;
+}
+
+.full-price {
+	text-decoration:line-through;
+	text-decoration-color: red;
+}
+
+.half-price {
+	color: red;
+	font-size: 10;
+}

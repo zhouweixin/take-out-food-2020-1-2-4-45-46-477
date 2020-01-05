@@ -1,3 +1,3 @@
 function bestCharge(selectedItems) {
-  return /*TODO*/;
+  return "结果";
 }
